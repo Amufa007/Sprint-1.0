@@ -1,0 +1,575 @@
+#hero {
+    min-height: 100vh;
+    position: relative;
+    min-width: 250px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    align-items: center;
+    margin-top: 100px;
+    min-width: 250px;
+    width: 1420px;
+    
+}
+
+
+.download {
+    text-align: left;
+}
+
+.logo {
+    border-bottom-right-radius: 80px;
+}
+/* Contenido */
+
+.header-txt {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-right: 50px;
+    margin: 100px;
+    margin-top: 320px;
+    min-width: 250px;
+}
+
+
+body {
+
+    background-color: rgb(223, 250, 250);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+.header .contenedor {
+    text-align:center;
+    padding: 100 200px;
+    margin-bottom: 0px;
+    min-width: 250px;
+    height: 25em;
+    align-items: center;
+    
+}
+
+.imagen {
+    width: 100%;
+    height: 20em;
+    border-radius: 30px;
+    margin-top:350px;
+    margin-right: -100px;
+
+    
+}
+
+#btn-comprar {
+    font-weight: bold;
+    color: red;
+    /* Agrega otros estilos de tu elección para resaltar el enlace seleccionado */
+}
+/* Importación de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Estilos para el menú y el logo */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#carrito {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: white;
+    padding: 15px;
+    display: none;
+}
+#img-carrito {
+    width: 42px;
+    height: 42px;
+    fill: #000000;
+    stroke: #ffffff;
+    stroke-width: 2px;
+}
+.header{
+    display:flex;
+    align-items: center;
+    min-height: 70vh;
+    position: relative;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    min-width: 250px;
+    
+}
+
+.header .navbar ul li{
+    display:inline-block;
+    align-items: center;
+    min-height: 70vh;
+    position: relative;
+    
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+    margin-top: 20px;
+    min-width: 250px;
+    z-index: 1000;
+    margin-left: 250px;
+
+}
+
+
+
+
+
+.header .logo {
+    display: inline-block;
+    color: lightskyblue;
+    text-transform: uppercase;
+    align-items: center;
+    min-height: 10vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    min-width: 250px;
+
+    margin: 2px; /* Ajusta el margen según tus preferencias */
+    z-index: 900; /* Asegúrate de que esté por encima de otros elementos */
+
+}
+
+
+.menu .navbar ul li a{
+    font-size: 22px;
+    padding: 20px;
+    
+    color: #f74545;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover{
+    color: rgb(7, 7, 7);
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.submenu{
+    position: relative;
+    display: inline-block;
+    min-height: 70vh;
+}
+.submenu img {
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.submenu #carrito{
+    display: none;
+}
+
+.submenu:hover #carrito{
+    display: block;
+    position: static;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: lightsteelblue;
+    padding: 20px;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}.submenu #carrito #btn-comprar{
+    background-color: #4CAF50; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin decoración de texto */
+    display: inline-block; /* Mostrar como bloque */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen exterior */
+    cursor: pointer; /* Cursor al pasar por encima */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+table{
+    width: 100%;
+}
+
+th, td{
+    color: blanchedalmond;
+}
+
+
+.products h2 {
+    font-size: 45px;
+    line-height: 55px;
+    color: #2498ad;
+    text-transform: uppercase;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.agregar-carrito {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2498ad;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.agregar-carrito:hover {
+    background-color: #1e7ea3;
+}
+
+
+
+
+.btn-1{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(17, 137, 141);
+    font-size: 0.9em;
+    color: rgb(250, 250, 252);
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-1:hover{
+    background-color:rgb(160, 69, 69);
+}
+
+
+
+
+
+/* General layout for the section */
+.courses-section {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    min-width: 250px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+}
+
+.courses-section .products .box-container {
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    min-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.courses-section .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Course item styles */
+.ropa img {
+    border-radius: 10px;
+    height: auto;
+    width: 350px;
+    margin-right: -5px;
+}
+
+
+.product-txt h4 {
+    font-size: 1.8em;
+    color: #0d4497;
+    margin-bottom: 10px;
+}
+
+.offer {
+    color: #e63946;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.precio {
+    font-size: 18px;
+    font-size: 2.2em;
+    color: rgb(45, 66, 187);
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-bottom: 15px;
+}
+
+
+.descripcion {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Inscription button styles */
+.inscripcion-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color:rgb(17, 137, 141);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.inscripcion-btn:hover {
+    background-color: rgb(160, 69, 69);
+}
+
+
+.btn-3{
+    display: inline-block;
+    padding: 5px 25px;
+    background-color: lightskyblue;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.btn-3:hover{
+    background-color: rgb(112, 180, 223);
+}
+
+
+/* Redes Sociales */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1);
+}
+
+/* Tiendas de aplicaciones */
+.app-stores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.app-stores a img {
+    width: 120px;
+    height: auto;
+}
+
+/* Estilos para la cuenta regresiva */
+#countdown-container   {
+    text-align: center;
+    font-size: 2.3em;
+    padding: 10px;
+    width: 1480px;
+    min-width: 250px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #2498ad;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#countdown-timer {
+    text-align: center;
+    font-size: 2.3em;
+    margin-bottom: 0px;
+    color: #0c0c0c;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#countdown-container:hover {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}
+
+
+
+/* Estilos generales */
+
+.header-txt h1{
+    color: rgb(92, 176, 228);
+    margin-bottom: 35px;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 20px 0;
+    align-content: center;
+}
+
+.header-txt p{
+    font-size: 16px;
+    color: #1b1a1b;
+    margin-bottom: 45px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.header-txt span{
+    color: rgb(17, 4, 126);
+}
+
+.header-contentcontainer, .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 250px;
+    min-width: 250px;
+    width: 1580px;
+    margin-left: 320px;
+    
+}
+
+.header-txt .btn-1 {
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+/* Ajustes de imagen y video */
+header img.logo {
+    width: 100px;
+}
+
+
+
+/* Cursos disponibles */
+
+
+.box-container .ropa {
+    max-width:none;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+    min-width: 250px;
+}
+
+/* Footer */
+
+footer {
+    padding: 40px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0px;
+    min-width: 250px;
+    width: 1450px;
+    
+}
+
+
+.footer-section {
+    margin-bottom: 0px;
+    min-width: 250px;
+
+
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.footer-section ul li {
+    margin-bottom: 0px;
+    min-width: 250px;
+}
+
+.footer-section ul li a:hover {
+    color: #007bff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s;
+}
+
+.app-stores a img {
+    max-width: 100px;
+}
+
+
+
+
+

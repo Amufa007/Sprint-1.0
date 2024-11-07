@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="css/sitio web experimental.css">
+</head>
+<div>
+
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo"><img class="logo" src="img/logocs.jpeg.svg"></a>
+        <div class="menu container" id="nuestra">
+
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.svg" class="menu-icono">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="register.html">Registro</a></li>
+                    <li><a href="login.html">Ingresar</a></li>
+                    <li><a href="#lista-1">Curso Digital</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="Img/shopping-bag.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                            <button href="#" id="btn-comprar">Comprar</button>
+                            <span id="contador-carrito"></span>
+                            <p>Total de la compra: <span id="total-compra"></span></p>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+            <!-- HTML para el menú desplegable -->
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="header-contentcontainer">
+
+            <div class="header-txt">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h1> <span>!Bienvenidos¡</span> A nuestra comunidad digital</h1>
+                <p style="text-align: justify;">
+                    Soy Carolina Salas, y es un honor para mí presentarles este curso digital sobre finanzas, diseñado para transformar su relación con el dinero y ayudarles a tomar el control de su futuro financiero.                                                                                    
+                    ¡Espero verlos pronto en clase!.</p>
+                <a href="#lista-1" class="btn-1"> Más Información</a>
+            </div>
+        </div>
+        <div class="contenedor">
+            <img class="imagen" src="img/woman-5887685_1280.jpg.svg">
+        </div>
+
+    </header>
+        <!-- Video de presentación -->
+        <div >
+            <video muted autoplay loop >
+                <source src="img/video de curso de finazas ‑ Made with FlexClip.mp4" type="video/mp4">
+            </video>
+            <div class="capa"></div>
+        </div>
+    
+        <!-- Contenedor de cuenta regresiva -->
+        <div id="countdown-container">
+            <h5>Tiempo restante para la oferta:</h5>
+            <p id="countdown-timer"></p>
+        </div>
+
+
+    <section class="courses-section">
+        <main class="products">
+            <h2>Cursos Disponibles:</h2>
+            <div class="box-container" id="lista-1">
+                <div class="ropa">
+                    <img src="img/freepik__candid-image-photography-natural-textures-highly-r__52212.jpeg.svg" width="200" alt="Curso de finanzas">
+                    <div class="product-txt">
+                        <h4>Finanzas</h4>
+                        <p class="offer">¡Solo por hoy, inscríbete y obtén el curso gratuitamente!</p>
+                        <p class="precio">$300.53</p>
+                        <p class="descripcion">
+                            Aprende los principios y conceptos fundamentales de las finanzas, como el balance general, el estado de pérdidas y ganancias, el flujo de caja, y mucho más.
+                        </p>
+                        <a href="register.html" class="inscripcion-btn">Inscribirse Gratis</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    
+
+<footer class="footer">
+    <div class="footer-section">
+        <h3>Servicios</h3>
+        <ul>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="#">Garantía Incondicional</a></li>
+            <li><a href="#">Garantía del Fabricante</a></li>
+            <li><a href="#">Compra Segura</a></li>
+            <li><a href="#">Términos de Uso</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-section">
+        <h3>Acerca de Nosotros</h3>
+        <ul>
+            <li><a href="#nuestra">Nuestra Empresa</a></li>
+            <li><a href="https://maps.app.goo.gl/5NGhGctW8X9nAuWi9" target="_blank">Dirección: Guayaquil, Ecuador</a></li>
+            <li><a href="mailto:Catalina.Sada@hotmail.com">Correo: Catalina.Sada@hotmail.com</a></li>
+            <li><a href="#">Trabaja con Nosotros</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-section">
+        <h3>Contacto</h3>
+        <ul>
+            <li><a href="https://wa.me/0962102009" target="_blank">WhatsApp: 0962102009</a></li>
+            <li><a href="tel:+042937176">Teléfono: 042937176</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-section">
+        <h3>Síguenos en Redes Sociales</h3>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/icons8-facebook-nuevo.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/icons8-instagram.svg" alt="Instagram"></a>
+            <a href="https://telegram.org/" target="_blank"><img src="img/icons8-aplicación-telegrama.svg" alt="Telegram"></a>
+            <a href="https://x.com/?lang=es" target="_blank"><img src="img/twitter3.svg" alt="Twitter"></a>
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <h3>Descarga Nuestra APP</h3>
+        <div class="app-stores">
+            <a href="#"><img src="img/store1.svg" alt="Google Play"></a>
+            <a href="#"><img src="img/store2.svg" alt="App Store"></a>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/otro.js"></script>
+
+</body>
+
+</html>
